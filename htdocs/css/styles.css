@@ -1,0 +1,76 @@
+/* Centrarea întregii pagini */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Folosim înălțimea completă a paginii */
+    flex-direction: column; /* Poți să folosești această linie pentru a organiza conținutul pe coloană */
+}
+
+/* Stil pentru titluri */
+h2 {
+    text-align: center;
+    color: #444;
+    margin-top: 0; /* Eliminăm spațiul din partea de sus a titlului */
+}
+
+/* Stil pentru formular */
+form {
+    width: 100%; /* Formularul va ocupa întreaga lățime disponibilă */
+    max-width: 400px; /* Lățimea maximă a formularului */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Stil pentru câmpurile de input */
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #444;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Stil pentru buton */
+form button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Stil pentru linkul de întoarcere la dashboard */
+a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: purple;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+a:hover {
+    color: #5e3c8c;
+}
